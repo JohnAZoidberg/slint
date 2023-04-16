@@ -119,15 +119,15 @@ export component SpinBox {
             SpinBoxButton {
                 enabled: root.enabled;
 
-                Path {
-                    x: (parent.width - self.width) / 2;
-                    y: (parent.height - self.height) / 2;
-                    width: 44%;
-                    height: 44%;
-                    commands: "M14.15 30.75 12 28.6l12-12 12 11.95-2.15 2.15L24 20.85Z";
-                    opacity: parent.icon-opacity;
-                    fill: parent.icon-fill;
-                }
+                //Path {
+                //    x: (parent.width - self.width) / 2;
+                //    y: (parent.height - self.height) / 2;
+                //    width: 44%;
+                //    height: 44%;
+                //    commands: "M14.15 30.75 12 28.6l12-12 12 11.95-2.15 2.15L24 20.85Z";
+                //    opacity: parent.icon-opacity;
+                //    fill: parent.icon-fill;
+                //}
 
                 clicked => {
                     if (root.value < root.maximum) {
@@ -141,15 +141,15 @@ export component SpinBox {
             SpinBoxButton {
                 enabled: root.enabled;
 
-                Path {
-                    x: (parent.width - self.width) / 2;
-                    y: (parent.height - self.height) / 2;
-                    width: 44%;
-                    height: 44%;
-                    commands: "m24 30.75-12-12 2.15-2.15L24 26.5l9.85-9.85L36 18.8Z";
-                    opacity: parent.icon-opacity;
-                    fill: parent.icon-fill;
-                }
+                //Path {
+                //    x: (parent.width - self.width) / 2;
+                //    y: (parent.height - self.height) / 2;
+                //    width: 44%;
+                //    height: 44%;
+                //    commands: "m24 30.75-12-12 2.15-2.15L24 26.5l9.85-9.85L36 18.8Z";
+                //    opacity: parent.icon-opacity;
+                //    fill: parent.icon-fill;
+                //}
 
                 clicked => {
                     if (root.value > root.minimum) {

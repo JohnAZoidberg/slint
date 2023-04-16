@@ -28,16 +28,16 @@ component TableViewColumn inherits Rectangle {
             @children
         }
 
-        Path {
-            visible: root.sort-order != SortOrder.unsorted;
-            width: 12px;
-            height: 12px;
-            y: (parent.height - self.height) / 2;
-            commands: root.sort-order == SortOrder.ascending ?
-                "M24 44 10 30l2.1-2.1 10.4 10.4V4h3v34.3l10.4-10.4L38 30Z" :
-                "M22.5 44V9.7L12.1 20.1 10 18 24 4l14 14-2.1 2.1L25.5 9.7V44Z";
-            fill: md.sys.color.on-surface;
-        }
+        //Path {
+        //    visible: root.sort-order != SortOrder.unsorted;
+        //    width: 12px;
+        //    height: 12px;
+        //    y: (parent.height - self.height) / 2;
+        //    commands: root.sort-order == SortOrder.ascending ?
+        //        "M24 44 10 30l2.1-2.1 10.4 10.4V4h3v34.3l10.4-10.4L38 30Z" :
+        //        "M22.5 44V9.7L12.1 20.1 10 18 24 4l14 14-2.1 2.1L25.5 9.7V44Z";
+        //    fill: md.sys.color.on-surface;
+        //}
     }
 
     // border

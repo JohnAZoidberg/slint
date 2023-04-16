@@ -45,23 +45,23 @@ export component CheckBox {
                 animate opacity { duration: 300ms; easing: ease; }
             }
 
-            if (root.checked) : Path {
-                width: 66%;
-                height: 66%;
-                x: (parent.width - self.width) / 2;
-                y: (parent.height - self.height) / 2;
-                commands: "M18.9 35.7 7.7 24.5l2.15-2.15 9.05 9.05 19.2-19.2 2.15 2.15Z";
-                fill: md.sys.color.on-primary;
+            //if (root.checked) : Path {
+            //    width: 66%;
+            //    height: 66%;
+            //    x: (parent.width - self.width) / 2;
+            //    y: (parent.height - self.height) / 2;
+            //    commands: "M18.9 35.7 7.7 24.5l2.15-2.15 9.05 9.05 19.2-19.2 2.15 2.15Z";
+            //    fill: md.sys.color.on-primary;
 
-                states [
-                    disabled when !root.enabled : {
-                        fill: md.sys.color.on-surface;
-                    }
-                    hover-selected when touch.has-hover && root.checked : {
-                        fill: md.sys.color.on-primary;
-                    }
-                ]
-            }
+            //    states [
+            //        disabled when !root.enabled : {
+            //            fill: md.sys.color.on-surface;
+            //        }
+            //        hover-selected when touch.has-hover && root.checked : {
+            //            fill: md.sys.color.on-primary;
+            //        }
+            //    ]
+            //}
         }
 
         label := Text {
